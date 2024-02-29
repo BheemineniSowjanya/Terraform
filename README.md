@@ -6,7 +6,7 @@ IaC involves defining and managing infrastructure elements (servers, networks, d
 
 1. **Manually Configure Servers:** Servers and other infrastructure components were often set up and configured manually, which could lead to inconsistencies and errors.
 
-2.**Lack of Version Control:** Infrastructure configurations were not typically version-controlled, making it difficult to track changes or revert to previous states.
+2. **Lack of Version Control:** Infrastructure configurations were not typically version-controlled, making it difficult to track changes or revert to previous states.
 
 3. **Documentation Heavy**: Organizations relied heavily on documentation to record the steps and configurations required for different infrastructure setups. This documentation could become outdated quickly.
 
@@ -18,27 +18,27 @@ IaC addresses these challenges by providing a systematic, automated, and code-dr
 
 **Benefits**:
 
-_Automation_: Enables automated provisioning, configuration, and management of infrastructure.
-_Consistency_: Ensures that infrastructure is consistent across environments, reducing errors and improving reliability.
-_Scalability_: Easily scales infrastructure up or down based on demand.
-_Version Control_: Infrastructure code can be versioned, allowing for tracking changes, rollbacks, and collaboration.
-_Collaboration_: Enables collaboration between development and operations teams.
+- _Automation_: Enables automated provisioning, configuration, and management of infrastructure.
+- _Consistency_: Ensures that infrastructure is consistent across environments, reducing errors and improving reliability.
+- _Scalability_: Easily scales infrastructure up or down based on demand.
+- _Version Control_: Infrastructure code can be versioned, allowing for tracking changes, rollbacks, and collaboration.
+- _Collaboration_: Enables collaboration between development and operations teams.
 
 **Tools**:
 
 Various tools are used for implementing IaC, including:
-_Terraform_: Declarative provisioning tool supporting multiple cloud providers.
-_AWS CloudFormation_: AWS-specific IaC service.
-_Azure Resource Manager_ (ARM) Templates: Azure-specific IaC tool.
-_Ansible_: Configuration management and provisioning tool.
-_Chef and Puppet_: Configuration management tools with IaC capabilities.
+- _Terraform_: Declarative provisioning tool supporting multiple cloud providers.
+- _AWS CloudFormation_: AWS-specific IaC service.
+- _Azure Resource Manager_ (ARM) Templates: Azure-specific IaC tool.
+- _Ansible_: Configuration management and provisioning tool.
+- _Chef and Puppet_: Configuration management tools with IaC capabilities.
 
 These tools enable organizations to define, deploy, and manage their infrastructure efficiently and consistently, making it easier to adapt to the dynamic needs of modern applications and services.
 
 **Declarative vs. Imperative:**
 
-_Declarative IaC:_ Describes the desired state of the infrastructure, and the system determines how to achieve that state.
-_Imperative IaC:_ Specifies the exact steps to be taken to reach the desired state.
+- _Declarative IaC:_ Describes the desired state of the infrastructure, and the system determines how to achieve that state.
+- _Imperative IaC:_ Specifies the exact steps to be taken to reach the desired state.
 
 **Workflow**:
 
@@ -48,9 +48,9 @@ _Imperative IaC:_ Specifies the exact steps to be taken to reach the desired sta
   
 **Use Cases:**
 
-Provisioning: Creating and setting up new infrastructure.
-Configuration Management: Managing configurations and updates across environments.
-Orchestration: Coordinating complex deployments and changes.
+**Provisioning**: Creating and setting up new infrastructure.
+**Configuration** Management: Managing configurations and updates across environments.
+**Orchestration**: Coordinating complex deployments and changes.
 
 # Why Terraform ?
 

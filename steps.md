@@ -23,6 +23,8 @@ terraform init
 
 This command initializes the Terraform working directory, downloading any necessary provider plugins.
 
+The **terraform plan** command in Terraform generates a preview of the infrastructure changes that will be made based on the current configuration, displaying resource actions such as creation, update, or deletion. It helps users review and understand the impact of their changes before applying them with terraform apply.
+
 ## Apply the Configuration
 
 Run the following command to create the AWS resources defined in your Terraform configuration:
